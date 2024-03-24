@@ -1,0 +1,191 @@
+.test {
+
+}
+/* Header */
+.header {
+  border-bottom: 0px solid #ddd;
+  padding: 10px 0;
+  background-color: #266041; /* Set the background color to  */
+}
+
+
+.header .inner-logo img {
+  max-height: 110px;
+  max-width: 1000%;
+}
+
+.header .inner-menu > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header .inner-logo {
+  color : white;
+  font-size: 25px;
+  margin-left: -40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header .inner-menu > ul > li {
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+}
+
+.header .inner-menu > ul > li a {
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #99BC85;
+  text-decoration: none;
+}
+
+.header .inner-menu > ul > li a:hover {
+  background-color: #ffffff;
+  color: #001860;
+  text-decoration: none;
+}
+
+.header .inner-menu > ul > li a:visited {
+  text-decoration: none;
+}
+
+
+
+/* End Header */
+
+/* Footer */
+/* Footer */
+.footer {
+  background: #31304D;
+  color: #fff;
+  text-align: center;
+  padding: 20px; /* Increased padding for better spacing */
+  font-size: 16px; /* Adjust font size */
+}
+
+.footer a {
+  color: #fff; /* Style links within the footer */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth link color transition */
+}
+
+.footer a:hover {
+  color: #00aaff; /* Change link color on hover */
+}
+
+/* Additional styling for footer content */
+.footer .footer-content {
+  max-width: 1200px; /* Limit content width for readability */
+  margin: 0 auto; /* Center align the content */
+}
+
+.footer .footer-content p {
+  margin: 10px 0; /* Adjust paragraph spacing */
+}
+
+/* End Footer */
+
+/* Box Head */
+.box-head {
+  background-color: #ffffff;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  /* Loại bỏ đường viền tròn */
+  box-shadow: none;
+}
+
+
+.box-head {
+  font-weight: bold; /* Viết đậm chữ */
+  text-decoration: capitalize; /* Chữ cái đầu tiên của mỗi từ viết hoa */
+  text-align: left;
+}
+
+
+.box-head {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+
+
+
+
+/* End box-head */
+
+/* product-item */
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-item .inner-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+.product-item .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-item .inner-content {
+  padding: 15px;
+  border: none;
+}
+
+.product-item .inner-content .inner-title {
+  font-size: 20px;
+}
+
+.product-item .inner-content .inner-price-new {
+  font-size: 18px;
+  color: rgb(8, 8, 8);
+}
+
+.product-item .inner-content .inner-price-old {
+  font-size: 18px;
+  color: red;
+  text-decoration: line-through;
+}
+
+.product-item .inner-content .inner-discount {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background: red;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+
+
+
+
+
+/* End product-item */
